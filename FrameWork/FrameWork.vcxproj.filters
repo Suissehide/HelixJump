@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="3DUtils.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Cyclone\body.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Cyclone\collide_coarse.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Cyclone\collide_fine.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Cyclone\contacts.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Cyclone\core.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawUtils.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Cyclone\fgen.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Cyclone\joints.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MMatrix.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MyGlWindow.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Cyclone\particle.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Cyclone\pcontacts.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Cyclone\pfgen.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Cyclone\plinks.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Cyclone\pworld.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Cyclone\random.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="timing.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Cyclone\world.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Cylinder.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3DUtils.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Cyclone\body.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Cyclone\collide_coarse.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Cyclone\collide_fine.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Cyclone\contacts.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Cyclone\core.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Cyclone\cyclone.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawUtils.H">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Cyclone\fgen.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Cyclone\glut.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Cyclone\joints.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MMatrix.H">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MyGlWindow.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Cyclone\particle.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Cyclone\pcontacts.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Cyclone\pfgen.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Cyclone\plinks.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Cyclone\precision.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Cyclone\pworld.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Cyclone\random.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="timing.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec3f.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Cyclone\world.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Cylinder.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{121ee300-7c38-489b-b90f-5fb011857721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{ee586416-0487-45eb-be40-3803d485dcf1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
