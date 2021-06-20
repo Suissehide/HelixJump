@@ -51,7 +51,6 @@ void Window::initGameLogic() {
 
     glutKeyboardFunc(keyboard);
     glutFullScreen();
-
     glutIdleFunc(idle);
 }
 

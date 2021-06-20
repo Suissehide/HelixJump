@@ -57,11 +57,11 @@ void keyboard(unsigned char key, int, int)
         distOrigin++;
         break;
 
-    case 'w':
+    case 'z':
         topSide += 10;
 
         break;
-    case 'a':
+    case 'q':
         horizontalTranslate -= 3;
 
         break;
@@ -111,9 +111,9 @@ void motion(int x, int)
     float dx = x - width / 2;
 
     if (dx > 0)
-        utils::moveScreenX += -1 * (abs(dx));
+        utils::moveScreenX += -0.5 * (abs(dx));
     if (dx < 0)
-        utils::moveScreenX += +1 * (abs(dx));
+        utils::moveScreenX += +0.5 * (abs(dx));
     if (utils::moveScreenX > 360)
         utils::moveScreenX = 0 + utils::moveScreenX - 359;
     if (utils::moveScreenX < 0)
